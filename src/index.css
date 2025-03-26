@@ -308,3 +308,117 @@ body{
 .leaflet-control-zoom, .leaflet-bar, .leaflet-control{
   border: none !important;
 }
+@media (max-width: 768px){
+  #wholeWrap{
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+
+  #contentWrap{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #leftSide{
+    width: 90%;
+    height:  40%;
+    padding: 5%;
+  }
+
+  .header{
+    font-size: 8vw;
+  }
+
+  #locationImage{
+    display: none;
+  }
+
+  #locationRight{
+    width: 90%;
+    flex-direction: row;
+  }
+
+  #locationName{
+    font-size: 5vw;
+  }
+
+  #temperature{
+    font-size: 4vw;
+  }
+
+  #righSide{
+    width: 90%;
+    height: 57%;
+  }
+
+  #weatherIndicatorImage {
+    display: flex;
+    width: 30vw; /* Set the desired width */
+    height: 15vh; /* Maintain aspect ratio */
+    align-items: start;
+  }
+
+  #imagito{
+    width: 100%;
+  }
+
+  #bigRight{
+    width: 45%;
+  }
+
+  #mainWeatherWindow{
+    justify-content: space-between;
+    padding: 5%;
+    box-sizing: border-box;
+  }
+
+  #bigLeft{
+    width: 55%;
+    align-items: start;
+  }
+
+  #bigHeaders{
+    width: 100%;
+    align-items: start;
+  }
+
+  #subheader{
+    font-size: 3vw;
+  }
+
+  #mainTemperature{
+    font-size: 10vw;
+  }
+
+  #feelsLikeTemperature{
+    font-size: 4vw;
+  }
+
+  #weatherStatus{
+    font-size: 4vw;
+  }
+
+  #infoIcon{
+    height: 100%;
+  }
+
+  #buttonForIcons{
+    width: 65%;
+    align-items: center;
+    padding-right: 2vw;
+  }
+
+  #iconText{
+    font-size: 3.5vw;
+  }
+
+  #weatherImage {
+    height: 11vh !important;
+  }
+
+  #dayStatus{
+    font-size: 3vw;
+  }
+}

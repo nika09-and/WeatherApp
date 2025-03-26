@@ -96,14 +96,14 @@ export default function MainRight() {
                         <p id="subheader" className="font">{currentDate}</p>
                     </div>
                     <div id="weatherIndicatorImage">
-                        <FontAwesomeIcon icon={weatherIcon} size="10x" />
+                        <FontAwesomeIcon icon={weatherIcon} size="10x" id="imagito" />
                     </div>
                 </div>
                 <div id="bigRight">
                     <div id="iconButton">
                         <button id="buttonForIcons">
                             <img src={infoIcon} id="infoIcon" alt="Info Icon" />
-                            <p className="font" id="iconText">Icons</p>
+                            <p className="font" id="iconText">ICONS</p>
                         </button>
                     </div>
                     <div id="bigInfo">
@@ -120,9 +120,9 @@ export default function MainRight() {
                 style={{
                     backgroundImage: `url(${backgroundImage})`,
                     backgroundSize: 'cover',
-                    backgroundPosition: 'center',
+                    backgroundPosition: 'start',
                     backgroundRepeat: 'no-repeat',
-                    height: '200px',
+                    height: '22vh',
                 }}
             >
                 <div id="imageInfo">
